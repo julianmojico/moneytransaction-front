@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import CssBaseline from '@material-ui/core/CssBaseline';
 import * as serviceWorker from './serviceWorker';
+import TransactionsContainer from "./TransactionsContainer";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CssBaseline />
+    <TransactionsContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
