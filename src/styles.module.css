@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.table {
+  max-height: 600px;
+}
+
+.transactionButton {
+  display: block;
+  min-width: 100px;
+}

@@ -4,7 +4,9 @@ import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
         button: {
-            margin: theme.spacing(1)
+            margin: theme.spacing(1),
+            minWidth: 250,
+            display: theme.display,
         },
     }
 ))
@@ -19,7 +21,7 @@ function ButtonComponent(props){
         className={classes.button}
         endIcon={props.icon}
         onClick = {props.onClick}
-    > {props.label}
+    block> {props.label}
     </Button>
 }
 

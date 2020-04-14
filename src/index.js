@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles.module.css';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import * as serviceWorker from './serviceWorker';
-import TransactionsContainer from "./TransactionsContainer";
+import RequestTransaction from "./RequestTransaction";
 
 ReactDOM.render(
   <React.StrictMode>
     <CssBaseline />
-    <TransactionsContainer />
+    <RequestTransaction />
   </React.StrictMode>,
   document.getElementById('root')
 );
